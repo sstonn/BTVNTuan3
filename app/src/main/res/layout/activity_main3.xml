@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".Main3Activity">
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/color_bg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="50dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#097898" />
+    <ImageView
+        android:id="@+id/two"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#343255" />
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#889769" />
+    <ImageView
+        android:id="@+id/four"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#566577" />
+    <ImageView
+        android:id="@+id/five"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#FFF546" />
+</LinearLayout>
+    <Button
+        android:id="@+id/btn_complete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Complete"/>
+</LinearLayout>
